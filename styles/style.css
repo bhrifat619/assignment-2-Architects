@@ -1,0 +1,246 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth
+}
+
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500;600&family=Roboto:wght@300&family=Ubuntu&family=Work+Sans&display=swap');
+/* -------------------- */
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* ========================= */
+.header {
+    background: rgba(255, 144, 14, 0.1);
+    display: flex;
+}
+
+.header-container {
+    margin: 0px 169px;
+    margin-top: 50px;
+    margin-bottom: 2rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items {
+    display: flex;
+    gap: 26px;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* navigation ends  */
+/* --------------------- */
+
+.head-contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+    margin: 0 112px;
+    margin-top: 100px;
+}
+
+.head-text h3 {
+    font-size: 43px;
+}
+
+.head-text p {
+    color: #727272;
+}
+
+.head-text .btn button {
+    width: 180px;
+    height: 64px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFFFF;
+}
+
+.head-text .btn button:active {
+    background: #fbaa4d;
+}
+
+/* ------------------ */
+
+.head-contents .head-image img {
+    margin-top: 2rem;
+    height: 464px;
+    width: 100%;
+}
+
+/* header ends  */
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.features {
+    display: flex;
+    align-items: center;
+    margin: 0px 169px;
+    margin-top: 50px;
+    gap: 70px;
+    padding: 0 29px;
+    margin-bottom: 2rem;
+}
+
+.feature-img {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.features .feature-img img {
+    width: 232px;
+    height: 214px;
+}
+
+.feature-text {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.feature-text .title {
+    font-size: 27px;
+}
+
+.feature-text .title .first {
+    font-weight: 500;
+    color: #727272;
+}
+
+.feature-text .title .second {
+    font-weight: 700;
+    color: #131313;
+}
+
+.feature-text .title .third {
+    font-weight: 700;
+    color: #FF900E;
+}
+
+.feature-text p {
+    color: #727272;
+    font-size: 12px;
+}
+
+.feature-text .btn-2 button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 128px;
+    height: 39px;
+    background: #FF900E;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.feature-text .btn-2 .fa-arrow-right-long {
+    margin-left: .3rem;
+    font-size: 1rem;
+    transition: all .5s ease;
+}
+
+.feature-text .btn-2 button:hover .fa-arrow-right-long {
+    margin-left: 1rem;
+}
+
+/* feature section ends  */
+/* ============================== */
+
+.experience {
+    display: flex;
+    display: flex;
+    align-items: center;
+    margin: 0px 169px;
+    gap: 20px;
+}
+
+.experience .exper-title h3 {
+    font-size: 29px;
+    font-weight: 800;
+}
+
+.experience .exper-img img {
+    height: 47rem;
+    position: relative;
+    z-index: -1;
+}
+
+.experience .exper-title {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 1.5rem;
+}
+
+.experience .line {
+    background: #FF900E;
+    width: 5px;
+    height: 92px;
+}
+
+.exper-text p {
+    color: #727272;
+    font-size: 14px;
+}
+
+.exper-boxes {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.exper-box {
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgb(0 0 0 / 6%);
+    border-radius: 8px;
+    height: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+
+/* .btn-3 button{
+    height: 6rem;
+    width: 9rem;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    z-index: 1;
+    top: -53px;
+    left: -18px;
+    background: #FF900E;
+    color: #FFFFFF;
+} */
